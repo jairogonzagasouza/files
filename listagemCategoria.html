@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>Blog FrondEnd</title>
+        <!-- usar bootstrap online -->
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <div class="container">
+            <!-- título http://getbootstrap.com/components/#jumbotron -->
+            <div class="jumbotron">
+                <h1 class="text-center">Blog Frond-End</h1>
+            </div>
+
+            <!-- navegação http://getbootstrap.com/components/#navbar -->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" 
+                                data-toggle="collapse" 
+                                data-target="#bs-example-navbar-collapse-1" 
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" 
+                         id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">HMTL</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">Javascript</a></li>
+                            <li><a href="#">JQuery</a></li>
+                            <li><a href="#">Sobre</a></li>
+                        </ul>
+                    </div>
+            </nav>
+
+            <h3 class="text-right">Administração do Blog</h3>
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="btn-group-vertical" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default">HTML</button>
+                        <button type="button" class="btn btn-default">PHP</button>
+						<button type="button" class="btn btn-default">CSS</button>
+                        <button type="button" class="btn btn-default">JavaScript</button>
+						<button type="button" class="btn btn-default">Jquery</button>
+						<button type="button" class="btn btn-default">Python</button>
+                        <button type="button" class="btn btn-default">Sair</button>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <h4>Categoria</h4>
+                    <a href="Cadastro_Categorias.html">Nova Categoria</a>
+                    <table class="table">
+                        <tr>
+                            <th>
+                                Id
+                            </th>
+                            <th>
+                                Título
+                            </th>
+                            <th>
+                                Editar
+                            </th>
+                            <th>
+                                Excluir
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>xxx</td>
+                            <td><a href="#" class="btn btn-default">Editar</a></td>
+                            <td><a href="#" class="btn btn-default">Excluir</a></td>
+                        </tr>
+                        <tr>
+                            <td>50</td>
+                            <td>xxx</td>
+                            <td><a href="#" class="btn btn-default">Editar</a></td>
+                            <td><a href="#" class="btn btn-default">Excluir</a></td>
+                        </tr>
+                        <tr>
+                            <td>60</td>
+                            <td>xxx</td>
+                            <td><a href="#" class="btn btn-default">Editar</a></td>
+                            <td><a href="#" class="btn btn-default">Excluir</a></td>
+                        </tr>
+                        <tr>
+                            <td>70</td>
+                            <td>xxx</td>
+                            <td><a href="#" class="btn btn-default">Editar</a></td>
+                            <td><a href="#" class="btn btn-default">Excluir</a></td>
+                        </tr>
+                        <tr>
+                            <td>80</td>
+                            <td>xxx</td>
+                            <td><a href="#" class="btn btn-default">Editar</a></td>
+                            <td><a href="#" class="btn btn-default">Excluir</a></td>
+                        </tr>
+						<tr>
+                            <td>90</td>
+                            <td>xxx</td>
+                            <td><a href="#" class="btn btn-default">Editar</a></td>
+                            <td><a href="#" class="btn btn-default">Excluir</a></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+
+            <!-- rodape -->
+            <footer class="row">
+
+                <!-- 8 colunas para paginação e 4 para logo do bootrap                -->
+                <div class="col-md-8 text-center">
+                    <small><blink> Todos os direitos reservados</blink></small>
+                </div>
+                <!-- logotipo bootstrap -->
+                <!-- 8 colunas para paginação e 4 para logo do bootrap                -->
+                <div class="col-md-4">
+                    <img src="http://4.bp.blogspot.com/-aiKC5Hknkh0/V-xyajHXvhI/AAAAAAAAArU/rIDNhhxd0H8LWDr4C5wsCQCS8-GmVmNlACK4B/s1600/bootstrap-logo.png">
+                </div>
+            </footer>
+        </div>
+
+    </body>
+    <!-- performance é melhor ao incluir .js no fim do arquivo -->	
+    <!-- inclusao online da biblioteca jquery -->	
+    <script 
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- inclusao online da biblioteca bootstrap.js -->			
+    <script 
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+    crossorigin="anonymous"></script>
+</html>
+
+
